@@ -1,1 +1,2 @@
-<!doctype html><meta charset="utf-8"><title>연결 완료</title><body style="font-family:sans-serif;padding:40px"><h2>틱톡 연결 완료</h2><p>이 창은 닫아도 됩니다.</p></body>
+<!doctype html><meta charset="utf-8"><title>틱톡 연결</title><body style="font-family:sans-serif;padding:40px"><h2>틱톡 연결 중…</h2><p id=m>발행기로 넘기는 중입니다. 발행기(틱톡 발행기)가 켜져 있어야 합니다.</p>
+<script>if(location.search.includes('code='))location.replace('http://127.0.0.1:4876/tiktok/callback'+location.search);else document.getElementById('m').textContent='연결 코드가 없습니다.';</script></body>
